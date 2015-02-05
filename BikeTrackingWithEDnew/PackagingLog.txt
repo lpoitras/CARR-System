@@ -1,0 +1,71 @@
+ant:
+<ant>
+  <mkdir dir="\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew\for_redistribution" />
+  <mkdir dir="\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew\for_testing" />
+  <mkdir dir="\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew\for_redistribution_files_only" />
+</ant>
+mcc -C -o BikeTrackingWithEDnew -W WinMain:BikeTrackingWithEDnew -T link:exe -d '\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew\for_testing' -v '\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew.m' -a '\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\MatlabExe\pedScaleTable.mat' -a C:\MATLAB\SupportPackages\R2014b\osgenericvideointerface\toolbox\imaq\supportpackages\genericvideo -a C:\MATLAB\SupportPackages\R2014b\kinectforwindowsruntime\toolbox\imaq\supportpackages\kinectruntime -a C:\MATLAB\SupportPackages\R2014b\matroxhardware\toolbox\imaq\supportpackages\matrox -a C:\MATLAB\SupportPackages\R2014b\dcamhardware\toolbox\imaq\supportpackages\dcam -a C:\MATLAB\SupportPackages\R2014b\hamamatsuhardware\toolbox\imaq\supportpackages\hamamatsu 
+Compiler version: 5.2 (R2014b)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB" to
+Compiler path instance.] 
+Parsing file "\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 46 temporary MEX authorization files.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_22175_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_1585_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_16502_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_28505_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_18568_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_20133_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_32190_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_2261_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_18522_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_10651_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_29080_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_8155_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_17095_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_3565_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_490_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_4627_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_6124_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_27455_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_837_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_15920_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_3754_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_15102_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_14440_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_26086_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_9575_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_9060_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_30364_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_19805_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_28687_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_2692_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_3381_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_16866_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_5324_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_5037_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_4315_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_18901_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_29579_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_1516_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_14322_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_24401_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_1545_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_31697_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_23386_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_13142_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_10852_1316.auth'.
+Removing: 'C:\Users\lpoitras\AppData\Local\Temp\mathworks_tmp_1316_15888_1316.auth'.
+Generating file "\\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2014b\toolbox\compiler\Resources\default_icon.ico to \\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew\for_testing\BikeTrackingWithEDnew.exe.
+Failed to add the icon, C:\Program Files\MATLAB\R2014b\toolbox\compiler\Resources\default_icon.ico, in the application.
+Update resource failed: 32
+Attempting to embed the default icon C:\Program Files\MATLAB\R2014b\toolbox\compiler\Resources\default_icon.ico.
+Attempting to embed the CTF archive into the application \\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew\for_testing\BikeTrackingWithEDnew.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at \\ad\eng\users\l\p\lpoitras\My Documents\MATLAB\BikeTrackingWithEDnew\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
